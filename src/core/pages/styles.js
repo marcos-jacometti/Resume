@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import img from "../components/img/profile.jpg";
 
 export const Container = styled.main`
     display: flex;
@@ -8,32 +9,39 @@ export const Container = styled.main`
     height: 100%;
 `;
 
-export const Text = styled.div`
+export const Section = styled.section`
     display: flex;
+    align-items: center;
+    justify-content: ${props => props.justify};
     flex-direction: column;
-    color: #dbd8e3;
-    animation-name: fade;
-    animation-duration: 2s;
-    max-width: 30vw;
+    width: 100%;
+    color: #fff;
+    height: ${props => props.height};
+    background: ${props => props.background};
+`;
 
-    div {
-        display: flex;
-        justify-content: center;
-        margin-top: 3vh;
-        line-height: 2.8vh;
-    }
+export const Div = styled.div`
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: ${props => props.justify};
+    flex-direction: ${props => props.direction};
+    height: ${props => props.height};
+    width: ${props => props.width};
+    background: ${props => props.background};
+    border-radius: ${props => props.radius};
 
-    svg {
-        fill: #eebb99;
-        margin-right: 5px;
+    p {
+        font-size: 15px;
+        margin-top: 4vh;
     }
+`;
 
-    @keyframes fade {
-        from {
-            transform: scale(0.9);
-        }
-        to {
-            transform: scale(1);
-        }
-    }
+export const Photo = styled.div`
+    height: 40vh;
+    width: 20vw;
+    background-image: url(${img});
+    background-size: cover;
+    border-radius: 50%;
+    border: 0.5vh solid #ff0000;
 `;

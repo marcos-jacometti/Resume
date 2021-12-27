@@ -1,11 +1,17 @@
 import React from "react";
-import { Wrapper, Headers } from "./styles";
+import { Containers, Wrapper } from "./styles";
 
 export default function Header(){
     return(
         <Wrapper>
-            <Headers><div></div><h2>Marcos Jacometti</h2></Headers>
-            <Headers flex="end"><p>ABOUT ME</p><p>TEC</p><p>CONTACT ME</p></Headers>
+           <Containers width="50%" justify="start">
+               <h4>Marcos</h4>
+           </Containers>
+           <Containers width="50%" justify="end">
+               <h5>HOME</h5>
+               <h5>ABOUT</h5>
+               <h5>SKILLS</h5>
+           </Containers>
         </Wrapper>
     );
 }
