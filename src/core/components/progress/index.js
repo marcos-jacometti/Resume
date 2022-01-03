@@ -1,10 +1,13 @@
 import React from "react";
-import { Bar, ProgressBar, ProgressDone } from "./styles";
+import { Bar, BarTitle, ProgressBar, ProgressDone } from "./styles";
 
-export default function Progress({title, width}){
+export default function Progress({icon, fill, title, width}){
     return(
         <ProgressBar>
-            <p>{title}</p>
+            <BarTitle background="blue" fill={fill}>
+                {icon}
+                <p>{title}</p>
+            </BarTitle>
             <Bar>
                 <ProgressDone width={width}/>
             </Bar>

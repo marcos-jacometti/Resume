@@ -15,11 +15,11 @@ export const Containers = styled.div`
     width: ${props => props.width};
     padding: 10px;
 
-    h4 {
-        color: red;
+    h3 {
+        color: #db0000;
     }
 
-    h5 {
+    h4 {
         margin-left: 2vw;
     }
 `;

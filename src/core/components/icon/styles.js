@@ -14,6 +14,6 @@ export const Icons = styled.div`
 
     :hover {
         cursor: pointer;
-        color: #ff0000;
+        color: #950101;
     }
 `;

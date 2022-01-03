@@ -1,5 +1,5 @@
 import React from "react";
-import { Icons, Svgs } from "./styles";
+import { Icons } from "./styles";
 
 export default function Icon({background, height, width, font, top, svg}){
     return(

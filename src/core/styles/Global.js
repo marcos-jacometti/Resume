@@ -18,11 +18,23 @@ export default createGlobalStyle`
         }
         ::-webkit-scrollbar-thumb {
             border-radius: 5px;
-            border: 3px solid #ff0000;
+            border: 3px solid #950101k;
         }
     }
 
     header, main, footer {
         width: 100%;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+
+        p {
+            font-size: 0.8vw;
+        }
     }
 `;

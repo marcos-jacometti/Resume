@@ -1,13 +1,5 @@
 import styled from "styled-components";
-import img from "../components/img/profile.jpg";
-
-export const Container = styled.main`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100%;
-`;
+import img from "../img/profile.jpg";
 
 export const Section = styled.section`
     display: flex;
@@ -32,7 +24,6 @@ export const Div = styled.div`
     border-radius: ${props => props.radius};
 
     p {
-        font-size: 15px;
         margin-top: 4vh;
     }
 `;
@@ -43,5 +34,5 @@ export const Photo = styled.div`
     background-image: url(${img});
     background-size: cover;
     border-radius: 50%;
-    border: 0.5vh solid #ff0000;
+    border: 0.5vh solid #db0000;
 `;

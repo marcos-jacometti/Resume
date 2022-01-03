@@ -5,12 +5,12 @@ export default function Header(){
     return(
         <Wrapper>
            <Containers width="50%" justify="start">
-               <h4>Marcos</h4>
+               <h3>Marcos</h3>
            </Containers>
            <Containers width="50%" justify="end">
-               <h5>HOME</h5>
-               <h5>ABOUT</h5>
-               <h5>SKILLS</h5>
+               <h4>HOME</h4>
+               <h4>ABOUT</h4>
+               <h4>SKILLS</h4>
            </Containers>
         </Wrapper>
     );

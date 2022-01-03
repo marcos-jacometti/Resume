@@ -1,7 +1,23 @@
 import styled from "styled-components";
 
 export const ProgressBar = styled.div`
+    margin-top: 4vh;
+`;
 
+export const BarTitle = styled.div`
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+    p {
+        margin-top: 0;
+    }
+
+    svg {
+        margin-right: 0.5vw;
+        fill: ${props => props.fill};
+        font-size: 1vw;
+    }
 `;
 
 export const Bar = styled.div`
@@ -17,5 +33,5 @@ export const ProgressDone = styled.div`
     width: ${props => props.width};
     display: flex;
     border-radius: 1vw;
-    background: red;
+    background: #950101;
 `;
