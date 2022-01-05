@@ -26,6 +26,10 @@ export const Div = styled.div`
     p {
         margin-top: 4vh;
     }
+
+    a {
+        color: #fff;
+    }
 `;
 
 export const Photo = styled.div`
@@ -34,5 +38,5 @@ export const Photo = styled.div`
     background-image: url(${img});
     background-size: cover;
     border-radius: 50%;
-    border: 0.5vh solid #db0000;
+    border: 0.5vh solid #473bf0;
 `;

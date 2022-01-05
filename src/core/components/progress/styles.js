@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProgressBar = styled.div`
-    margin-top: 4vh;
+    margin-top: 3.5vh;
 `;
 
 export const BarTitle = styled.div`
@@ -33,5 +33,5 @@ export const ProgressDone = styled.div`
     width: ${props => props.width};
     display: flex;
     border-radius: 1vw;
-    background: #950101;
+    background: #473bf0;
 `;

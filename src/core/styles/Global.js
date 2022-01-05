@@ -10,7 +10,7 @@ export default createGlobalStyle`
     body {
         @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
         font-family: 'Josefin Sans', cursive;
-        background-color: #000;
+        background-color: #000500;
         overflow-x: hidden;
         ::-webkit-scrollbar {
             background: #121214;
@@ -18,7 +18,7 @@ export default createGlobalStyle`
         }
         ::-webkit-scrollbar-thumb {
             border-radius: 5px;
-            border: 3px solid #950101k;
+            border: 3px solid #473bf0;
         }
     }
 

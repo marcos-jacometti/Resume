@@ -14,6 +14,14 @@ export const Icons = styled.div`
 
     :hover {
         cursor: pointer;
-        color: #950101;
+        color: #473bf0;
+        animation: no 600ms;
+    }
+
+    @keyframes no {
+        0% {transform: translateX(0);}
+        35% {transform: translateX(-15%);}
+        70% {transform: translateX(15%);} 
+        100% {transform: translateX();}
     }
 `;

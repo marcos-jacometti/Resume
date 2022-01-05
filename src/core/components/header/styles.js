@@ -15,8 +15,8 @@ export const Containers = styled.div`
     width: ${props => props.width};
     padding: 10px;
 
-    h3 {
-        color: #db0000;
+    h2 {
+        color: #473bf0;
     }
 
     h4 {

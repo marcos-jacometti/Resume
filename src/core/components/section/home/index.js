@@ -12,12 +12,12 @@ export default function Home(){
                 <Div width="100%" height="40%" background="transparent" direction="column" justify="space-around">
                     <Div direction="column">
                          <h1>Marcos Jacometti</h1>
-                         <h4>Front-end Developer</h4>
+                         <h4>Full Stack Developer Student</h4>
                      </Div>
                     <Div>
-                         <Icon font="1.5vw" svg={<FaGithub />}/>
-                         <Icon font="1.5vw" svg={<FaLinkedinIn />}/>
-                         <Icon font="1.5vw" svg={<SiGmail />}/>
+                         <a href="https://github.com/marcos-jacometti" target="_blank"><Icon font="1.5vw" svg={<FaGithub />}/></a>
+                         <a href="https://www.linkedin.com/in/marcos-vin%C3%ADcius-jacometti-675202202/" target="_blank"><Icon font="1.5vw" svg={<FaLinkedinIn />}/></a>
+                         <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><Icon font="1.5vw" svg={<SiGmail />}/></a>
                      </Div>
                 </Div>
             </Div>
