@@ -16,12 +16,15 @@ export const Div = styled.div`
     display: flex;
     align-items: center;
     color: #fff;
+    flex-wrap: wrap;
     justify-content: ${props => props.justify};
     flex-direction: ${props => props.direction};
     height: ${props => props.height};
     width: ${props => props.width};
     background: ${props => props.background};
     border-radius: ${props => props.radius};
+    margin-top: ${props => props.top};
+    margin-left: ${props => props.left};
 
     p {
         margin-top: 4vh;
@@ -29,6 +32,15 @@ export const Div = styled.div`
 
     a {
         color: #fff;
+    }
+
+    svg {
+        font-size: ${props => props.svgSize};
+    }
+
+    :hover {
+        border: ${props => props.border};
+        cursor: ${props => props.cursor};
     }
 `;
 

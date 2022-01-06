@@ -20,7 +20,7 @@ export default function About(){
                     <p>Birthdate: Feb. 08 2003</p>
                     <p>Phone: +55 (19) 99940-9486</p>
                     <p>Email: marcosjacometti10@gmail.com</p>
-                    <p>LinkedIn: Marcos Vinícius Jacometti</p>
+                    <p>City: Mogi Mirim - SP</p>
                 </Div>
                 <Div width="50%" height="100%" direction="column" justify="center">
                     <h2>My Interests</h2>
