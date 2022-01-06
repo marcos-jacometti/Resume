@@ -13,7 +13,6 @@ export const Icons = styled.div`
     font-size: ${props => props.font};
 
     :hover {
-        cursor: pointer;
         color: #473bf0;
         animation: no 600ms;
     }

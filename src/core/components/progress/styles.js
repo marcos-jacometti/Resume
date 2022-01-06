@@ -25,7 +25,6 @@ export const Bar = styled.div`
     height: 1vh;
     border-radius: 1vw;
     background: #202020;
-    position: relative;
 `;
 
 export const ProgressDone = styled.div`

@@ -5,7 +5,7 @@ import { MdWork } from "react-icons/md";
 
 export default function Resume(){
     return(
-        <Section height="100vh" justify="center" background="#080808">
+        <Section height="100vh" justify="center" background="#080808" id="resume">
             <Div height="15vh" width="auto" justify="center">
                 <h1>RESUME</h1>
             </Div>

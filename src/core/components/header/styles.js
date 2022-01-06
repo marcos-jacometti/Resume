@@ -4,8 +4,11 @@ import img from "../img/profile.jpg";
 export const Wrapper = styled.header`
     display: flex;
     flex-direction: row;
-    height: auto;
-    color: #fff;
+    height: 8vh;
+    position: fixed;
+    border-bottom: thin solid #808080;
+    background: #000500;
+    top: 0;
 `;
 
 export const Containers = styled.div`
@@ -13,13 +16,19 @@ export const Containers = styled.div`
     align-items: center;
     justify-content: ${props => props.justify};
     width: ${props => props.width};
-    padding: 10px;
+    padding: 2vh;
 
     h2 {
         color: #473bf0;
     }
 
-    h4 {
-        margin-left: 2vw;
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+
+        :hover {
+            color: #473bf0;
+        }
     }
 `;

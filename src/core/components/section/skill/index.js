@@ -6,11 +6,11 @@ import { FaHtml5, FaCss3, FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
 
 export default function Skills(){
     return(
-        <Section height="100vh" background="transparent" justify="center">
+        <Section height="100vh" background="transparent" justify="center" id="skills">
             <Div width="100%" height="5vh" justify="center">
                 <h1>SKILLS</h1>
             </Div>
-            <Div width="100%" height="95vh">
+            <Div width="100%" height="75vh">
                 <Div width="50%" height="100%" justify="center" direction="column">
                     <h2>Technical Skills</h2>
                     <Progress icon={<DiJavascript1 />} fill="#fefe33" title="JavaScript - 70%" width="70%"/>

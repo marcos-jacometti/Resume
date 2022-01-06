@@ -6,7 +6,7 @@ import Icon from "../../icon";
 
 export default function Home(){
     return(
-        <Section height="95vh" background="transparent" justify="center">
+        <Section height="100vh" background="transparent" justify="center" id="home">
             <Div height="70vh" width="25vw" background="#080808" direction="column" radius="5%">
                 <Div width="100%" height="60%" background="transparent" justify="center"><Photo /></Div>
                 <Div width="100%" height="40%" background="transparent" direction="column" justify="space-around">

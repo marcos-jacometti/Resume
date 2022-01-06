@@ -6,7 +6,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 export default function Contact(){
     return(
-        <Section height="100vh" justify="center">
+        <Section height="100vh" justify="center" id="contact">
             <Div height="15vh" width="auto" justify="center">
                 <h1>CONTACT</h1>
             </Div>

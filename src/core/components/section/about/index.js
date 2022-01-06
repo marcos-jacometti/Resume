@@ -9,7 +9,7 @@ import { GoGraph } from "react-icons/go";
 
 export default function About(){
     return(
-        <Section height="100vh" background="#080808" justify="start">
+        <Section height="100vh" background="#080808" justify="start" id="about">
             <Div width="60%" height="50vh" direction="column" justify="center">
                 <h1>ABOUT ME</h1>
                 <p>Hi, I'm Marcos. Welcome to my website, here I am going to talk about me. I'm 18 years old, I live in Mogi Mirim-SP and today I'm in the third semester of Systems Analysis and Development. I've been studying web development for about 1 year, when I started with HTML, CSS and JS. My next step was to learn frameworks like React JS and Node JS.</p>
