@@ -3,11 +3,11 @@ import { Containers, Wrapper } from "./styles";
 
 export default function Header(){
     const menuItems = [
-        {title: "HOME", ref: "#home"},
-        {title: "ABOUT", ref: "#about"},
-        {title: "SKILLS", ref: "#skills"},
-        {title: "RESUME", ref: "#resume"},
-        {title: "CONTACT", ref: "#contact"}    
+        {title: "HOME", ref: "#home", id: "1"},
+        {title: "ABOUT", ref: "#about", id: "2"},
+        {title: "SKILLS", ref: "#skills", id: "3"},
+        {title: "RESUME", ref: "#resume", id: "4"},
+        {title: "CONTACT", ref: "#contact", id: "5"}    
     ];
     return(
         <Wrapper>
@@ -18,7 +18,7 @@ export default function Header(){
            <Containers width="50%" justify="end">
                {menuItems.map((op) => {
                    return(
-                       <Containers>
+                       <Containers key={op.id}>
                            <a href={op.ref}>{op.title}</a>
                        </Containers>
                    );

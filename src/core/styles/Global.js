@@ -8,7 +8,6 @@ export default createGlobalStyle`
     }
 
     body {
-        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
         font-family: 'Josefin Sans', cursive;
         background-color: #000500;
         overflow-x: hidden;
