@@ -18,6 +18,14 @@ export const BarTitle = styled.div`
         fill: ${props => props.fill};
         font-size: 1vw;
     }
+
+    @media screen and (max-width: 400px) {
+        width: 100%;
+
+        svg {
+            font-size: 5vw;
+        }
+    }
 `;
 
 export const Bar = styled.div`

@@ -31,4 +31,9 @@ export const Containers = styled.div`
             color: #473bf0;
         }
     }
+
+    @media screen and (max-width: 400px) {
+        padding: 1vh;
+        font-size: 2vw;
+    }
 `;

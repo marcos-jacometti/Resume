@@ -13,7 +13,7 @@ export const Icons = styled.div`
     font-size: ${props => props.font};
 
     :hover {
-        color: #473bf0;
+        color: ${props => props.hover};
         animation: no 600ms;
     }
 
@@ -22,5 +22,11 @@ export const Icons = styled.div`
         35% {transform: translateX(-15%);}
         70% {transform: translateX(15%);} 
         100% {transform: translateX();}
+    }
+
+    @media screen and (max-width: 400px) {
+        font-size: ${props => props.mediaFont};
+        height: ${props => props.mediaHeight};
+    width: ${props => props.mediaWidth};
     }
 `;

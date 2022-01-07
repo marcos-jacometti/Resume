@@ -7,7 +7,7 @@ import Icon from "../../icon";
 export default function Home(){
     return(
         <Section height="100vh" background="transparent" justify="center" id="home">
-            <Div height="70vh" width="25vw" background="#080808" direction="column" radius="5%">
+            <Div height="70vh" width="25vw" background="#080808" direction="column" radius="5%" mediaWidth="100vw">
                 <Div width="100%" height="60%" background="transparent" justify="center"><Photo /></Div>
                 <Div width="100%" height="40%" background="transparent" direction="column" justify="space-around">
                     <Div direction="column">
@@ -15,9 +15,9 @@ export default function Home(){
                          <h4>Full Stack Developer Student</h4>
                      </Div>
                     <Div>
-                         <a href="https://github.com/marcos-jacometti" target="_blank"><Icon font="1.5vw" svg={<FaGithub />}/></a>
-                         <a href="https://www.linkedin.com/in/marcos-vin%C3%ADcius-jacometti-675202202/" target="_blank"><Icon font="1.5vw" svg={<FaLinkedinIn />}/></a>
-                         <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><Icon font="1.5vw" svg={<SiGmail />}/></a>
+                         <a href="https://github.com/marcos-jacometti" target="_blank"><Icon hover="#473bf0" font="1.5vw" mediaFont="7vw" svg={<FaGithub />}/></a>
+                         <a href="https://www.linkedin.com/in/marcos-vin%C3%ADcius-jacometti-675202202" target="_blank"><Icon hover="#473bf0" font="1.5vw" mediaFont="7vw" svg={<FaLinkedinIn />}/></a>
+                         <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGKnJPFwtGkQWPhvJbQtwRKhxnhwbmJjDGdfXpSslHVcDMphbmgmKsBWLDKgqBbtnvtLMJG" target="_blank"><Icon hover="#473bf0" font="1.5vw" mediaFont="7vw" svg={<SiGmail />}/></a>
                      </Div>
                 </Div>
             </Div>

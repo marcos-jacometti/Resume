@@ -10,6 +10,10 @@ export const Section = styled.section`
     color: #fff;
     height: ${props => props.height};
     background: ${props => props.background};
+
+    @media screen and (max-width: 400px) {
+        height: ${props => props.mediaHeight};
+    }
 `;
 
 export const Div = styled.div`
@@ -36,11 +40,25 @@ export const Div = styled.div`
 
     svg {
         font-size: ${props => props.svgSize};
+        fill: ${props => props.fill};
     }
 
     :hover {
         border: ${props => props.border};
         cursor: ${props => props.cursor};
+    }
+
+    @media screen and (max-width: 400px) {
+        width: ${props => props.mediaWidth};
+        height: ${props => props.mediaHeight};
+
+        p {
+            font-size: ${props => props.mediaFont};
+        }
+
+        svg {
+            font-size: ${props => props.svgFont};
+        }
     }
 `;
 
@@ -51,4 +69,9 @@ export const Photo = styled.div`
     background-size: cover;
     border-radius: 50%;
     border: 0.5vh solid #473bf0;
+
+    @media screen and (max-width: 400px) {
+        width: 70vw;
+        height: 30vh;
+    }
 `;
