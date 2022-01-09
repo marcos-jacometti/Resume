@@ -8,7 +8,7 @@ export default createGlobalStyle`
     }
 
     body {
-        font-family: 'Josefin Sans', cursive;
+        font-family: calibri, cursive;
         background-color: #000500;
         overflow-x: hidden;
         ::-webkit-scrollbar {

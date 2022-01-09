@@ -12,7 +12,7 @@ export default function Contact(){
             <Div height="15vh" width="auto" justify="center">
                 <h1>CONTACT</h1>
             </Div>
-            <Div height="30vh" width="40vw" justify="center" direction="column" background="#080808" radius="5vh" mediaWidth="90%">
+            <Div height="30vh" width="40vw" justify="center" direction="column" background="#080808" radius="5vh" mediaWidth="90%" svgFont="5vw">
                 <Div fill="#ff0000"><FaMapMarkerAlt /><Div left="0.5vw"><h3>Mogi Mirim - SP</h3></Div></Div>
                 <Div fill="#fff"><CgPhone /><Div left="0.5vw"><h3>(19) 99940-9486</h3></Div></Div>
                 <Div fill="#b22222"><SiGmail /><Div left="0.5vw"><h3>marcosjacometti10@gmail.com</h3></Div></Div>

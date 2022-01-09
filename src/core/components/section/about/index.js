@@ -18,7 +18,7 @@ export default function About(){
                 </p>
             </Div>
             <Div width="100%" height="100vh" mediaFont="3vw">
-                <Div width="50%" height="100%" justify="center" direction="column" mediaHeight="50%" mediaWidth="100%">
+                <Div width="50%" height="100%" justify="center" direction="column" mediaFont="3vw" mediaHeight="50%" mediaWidth="100%">
                     <h2>Personal Details</h2>
                     <p>Birthdate: Feb. 08 2003</p>
                     <p>Phone: +55 (19) 99940-9486</p>

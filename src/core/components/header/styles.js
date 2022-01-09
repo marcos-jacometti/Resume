@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import img from "../img/profile.jpg";
 
 export const Wrapper = styled.header`
     display: flex;
@@ -18,7 +17,7 @@ export const Containers = styled.div`
     width: ${props => props.width};
     padding: 2vh;
 
-    h2 {
+    h1 {
         color: #473bf0;
     }
 
@@ -26,6 +25,7 @@ export const Containers = styled.div`
         text-decoration: none;
         color: #fff;
         font-weight: bold;
+        font-size: 1vw;
 
         :hover {
             color: #473bf0;
@@ -34,6 +34,13 @@ export const Containers = styled.div`
 
     @media screen and (max-width: 400px) {
         padding: 1vh;
-        font-size: 2vw;
+
+        h1 {
+            font-size: 3vw;
+        }
+        
+        a {
+            font-size: 2vw;
+        }
     }
 `;
