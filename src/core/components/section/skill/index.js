@@ -13,7 +13,7 @@ export default function Skills(){
             <Div width="100%" height="75vh" mediaHeight="145vh" mediaFont="3vw">
                 <Div width="50%" height="100%" justify="center" direction="column" mediaWidth="100%" mediaHeight="50%">
                     <h2>Technical Skills</h2>
-                    <Progress icon={<DiJavascript1 />} fill="#fefe33" title="JavaScript - 70%" width="70%"/>
+                    <Progress icon={<DiJavascript1 />} fill="#fefe33" title="JavaScript - 60%" width="60%"/>
                     <Progress icon={<FaHtml5 />} fill="#ff4500" title="HTML - 80%" width="80%"/>
                     <Progress icon={<FaCss3 />} fill="#0000cd" title="CSS - 80%" width="80%"/>
                     <Progress icon={<FaReact />} fill="#1e90ff" title="React JS - 60%" width="60%"/>
