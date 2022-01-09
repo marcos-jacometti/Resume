@@ -32,7 +32,7 @@ export const Div = styled.div`
 
     p {
         margin-top: 4vh;
-        font-size: 1vw;
+        font-size: 0.8vw;
     }
 
     a {

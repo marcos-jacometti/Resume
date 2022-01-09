@@ -25,7 +25,7 @@ export const Containers = styled.div`
         text-decoration: none;
         color: #fff;
         font-weight: bold;
-        font-size: 0.9vw;
+        font-size: 0.7vw;
 
         :hover {
             color: #473bf0;
@@ -35,7 +35,7 @@ export const Containers = styled.div`
     @media screen and (max-width: 400px) {
         padding: 1vh;
 
-        h1 {
+        h2 {
             font-size: 3vw;
         }
         
