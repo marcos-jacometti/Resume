@@ -12,7 +12,7 @@ export default function Header(){
     return(
         <Wrapper>
            <Containers width="50%" justify="start">
-               <h1>Marcos Jacometti</h1>
+               <h2>Marcos Jacometti</h2>
            </Containers>
 
            <Containers width="50%" justify="end">
