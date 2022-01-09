@@ -8,7 +8,7 @@ export default createGlobalStyle`
     }
 
     body {
-        font-family: calibri, cursive;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
         background-color: #000500;
         overflow-x: hidden;
         ::-webkit-scrollbar {

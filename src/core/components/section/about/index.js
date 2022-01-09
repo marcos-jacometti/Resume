@@ -14,7 +14,7 @@ export default function About(){
                 <h1>ABOUT ME</h1>
                 <p>
                     Hi, I'm Marcos. Welcome to my website, here I am going to talk about me. I'm 18 years old, I live in Mogi Mirim-SP and today I'm in the third semester of Systems Analysis and Development.
-                    I've been studying web development for about 1 year, when I started with HTML, CSS and JS. My next step was to learn frameworks like React JS and Node JS.
+                    I've been studying web development for about 1 year, when I started with HTML, CSS and JS. My journey has just begun, and soon I plan to master frameworks like React JS and Node JS.
                 </p>
             </Div>
             <Div width="100%" height="100vh" mediaFont="3vw">

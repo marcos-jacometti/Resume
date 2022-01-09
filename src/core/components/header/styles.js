@@ -25,7 +25,7 @@ export const Containers = styled.div`
         text-decoration: none;
         color: #fff;
         font-weight: bold;
-        font-size: 1vw;
+        font-size: 0.9vw;
 
         :hover {
             color: #473bf0;
